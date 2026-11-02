@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="calculadora">
+    <div id="pantalla" class="pantalla" aria-live="polite">0</div>
+    <div class="teclado">
+      <button class="limpiar" data-accion="limpiar" aria-label="Borrar todo">C</button>
+      <button class="operador" data-valor="÷" aria-label="Dividir">÷</button>
+
+      <button data-valor="7">7</button>
+      <button data-valor="8">8</button>
+      <button data-valor="9">9</button>
+      <button class="operador" data-valor="×" aria-label="Multiplicar">×</button>
+
+      <button data-valor="4">4</button>
+      <button data-valor="5">5</button>
+      <button data-valor="6">6</button>
+      <button class="operador" data-valor="−" aria-label="Restar">−</button>
+
+      <button data-valor="1">1</button>
+      <button data-valor="2">2</button>
+      <button data-valor="3">3</button>
+      <button class="operador" data-valor="+" aria-label="Sumar">+</button>
+
+      <button class="cero" data-valor="0">0</button>
+      <button data-accion="decimal" aria-label="Punto decimal">.</button>
+      <button class="igual" data-accion="igual" aria-label="Igual">=</button>
+    </div>
+  </main>
+</body>
+</html>
